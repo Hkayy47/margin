@@ -1,7 +1,7 @@
 # chuddle → **Margin**: plan (v1)
 
 _2026-09-28 · Status: **GO given 2026-09-29. Now in M0** ([spec](docs/specs/M0.md))._
-_Inputs: `IDEAS.md`, `research/01–08`, `verifier/` (356 tests pass; eval in `verifier/RESULTS.md`)._
+_Inputs: the idea menu (kept outside this repo, in `chuddle/IDEAS.md`), `research/01–08`, `verifier/` (356 tests pass; eval in `verifier/RESULTS.md`)._
 
 ## TL;DR
 
@@ -287,7 +287,7 @@ It climbs a rung only after new ink.
 
 _Answered 2026-09-29: 1 GO · 2 12 GB+ flagship · 3 Kotlin OK · 4 "Margin" · 5 public from day 1. Still open: 6._
 
-1. **GO on Margin?** Or switch to Spotter, Guardrail or Nudge (`IDEAS.md`).
+1. **GO on Margin?** Or switch to Spotter, Guardrail or Nudge (idea menu in `chuddle/IDEAS.md`).
 2. Which **phone model**?
 3. OK writing a little **Kotlin** later, for the hand-tracking plugin and on-device SymPy (Chaquopy)? I'd write it with you and walk you through it.
 4. Product **name**: "Margin" or something else? (`chuddle` can stay the repo name.)
