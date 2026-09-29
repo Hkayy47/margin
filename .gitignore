@@ -1,0 +1,30 @@
+# Python
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+
+# Node / Expo
+node_modules/
+.expo/
+dist/
+android/
+ios/
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.keystore
+
+# ML artifacts and data (large, or contain other people's handwriting)
+ml/data/
+ml/runs/
+*.gguf
+*.onnx
+*.safetensors
+
+# OS
+.DS_Store
+Thumbs.db
