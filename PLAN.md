@@ -1,7 +1,7 @@
-# chuddle → **Margin**: plan (DRAFT v1)
+# chuddle → **Margin**: plan (v1)
 
-_2026-09-28 · Status: **DRAFT, waiting for your GO.** Nothing gets built until you approve (Gate 0)._
-_Inputs: `IDEAS.md`, `research/01–08`, `spike/verifier/` (356 tests pass; eval in `spike/verifier/RESULTS.md`)._
+_2026-09-28 · Status: **GO given 2026-09-29. Now in M0** ([spec](docs/specs/M0.md))._
+_Inputs: `IDEAS.md`, `research/01–08`, `verifier/` (356 tests pass; eval in `verifier/RESULTS.md`)._
 
 ## TL;DR
 
@@ -272,7 +272,7 @@ It climbs a rung only after new ink.
 
 | Date | Decision | Why | Alternatives |
 |---|---|---|---|
-| 2026-09-28 | Build **Margin** (pending your GO) | Highest score (37/45) across wow, use, depth, ML, evals; fills the portfolio gap | Spotter 36, Guardrail 33, Nudge 33 |
+| 2026-09-29 | Build **Margin** (GO given); product name stays "Margin" | Highest score (37/45) across wow, use, depth, ML, evals; fills the portfolio gap | Spotter 36, Guardrail 33, Nudge 33 |
 | 2026-09-28 | Android-first; Expo dev build + VisionCamera 5 | Your phone; TS strengths; mature camera stack | native Kotlin; PWA (too limited for live vision) |
 | 2026-09-28 | Parser = `latex2sympy2_extended` | Spike: 42/42 OCR-style inputs vs 36/42 (Lark); keeps written form; 3× faster | SymPy Lark/ANTLR parsers |
 | 2026-09-28 | Verifier as a Python service in v1; Chaquopy later | 16 ms/step; tiny payloads; fastest path | port to a JS CAS (loses tested code) |
