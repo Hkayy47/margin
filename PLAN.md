@@ -279,8 +279,13 @@ It climbs a rung only after new ink.
 | 2026-09-28 | Base model Uni-MuMER-Qwen3.5-2B + MIT specialist | Apache-2.0, GGUF-ready, best open accuracy; avoid NC/AGPL | Gemma 4 E2B (no HME evidence), TAMER/PosFormer (license) |
 | 2026-09-28 | Hints-only **by construction** | Bastani: unguarded AI cut exam scores 17% | "trust us" hints |
 | 2026-09-28 | Primary guardrail metric = **false alarms per page** | The spike shows misreads, not the math, cause false alarms | accuracy-only metrics |
+| 2026-09-29 | Public repo from day 1 (`Hkayy47/margin`) | Visible, steady commit history; build in public | private until launch |
+| 2026-09-29 | Target phone: 12 GB+ RAM flagship | Fits Uni-MuMER-2B on-device (Q8 possible) | 8 GB (Q4 only) |
+| 2026-09-29 | Kotlin allowed for native pieces | Unlocks hand-tracking plugin and Chaquopy on-device verifier | TS/Python only |
 
 ## 15. Open questions for you
+
+_Answered 2026-09-29: 1 GO · 2 12 GB+ flagship · 3 Kotlin OK · 4 "Margin" · 5 public from day 1. Still open: 6._
 
 1. **GO on Margin?** Or switch to Spotter, Guardrail or Nudge (`IDEAS.md`).
 2. Which **phone model**?
